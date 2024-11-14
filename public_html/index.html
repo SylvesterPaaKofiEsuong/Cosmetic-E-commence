@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BeautyStore - Your Premium Cosmetics Destination</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <?php include 'header.php'; ?>
+    
+    <!-- Navigation Bar -->
+    <?php include 'navbar.php'; ?>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Discover Your Beauty</h1>
+            <p>Explore our collection of premium cosmetics</p>
+            <a href="shop.php" class="cta-button">Shop Now</a>
+        </div>
+    </section>
+
+    <!-- Featured Categories -->
+    <section class="featured-categories">
+        <h2>Shop By Category</h2>
+        <div class="category-grid">
+            <div class="category-card">
+                <img src="images/skincare.jpg" alt="Skincare">
+                <h3>Skincare</h3>
+                <a href="skincare.php">Explore</a>
+            </div>
+            <div class="category-card">
+                <img src="images/makeup.jpg" alt="Makeup">
+                <h3>Makeup</h3>
+                <a href="makeup.php">Explore</a>
+            </div>
+            <div class="category-card">
+                <img src="images/haircare.jpg" alt="Hair Care">
+                <h3>Hair Care</h3>
+                <a href="haircare.php">Explore</a>
+            </div>
+            <div class="category-card">
+                <img src="images/fragrance.jpg" alt="Fragrance">
+                <h3>Fragrance</h3>
+                <a href="fragrance.php">Explore</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Best Sellers -->
+    <section class="best-sellers">
+        <h2>Best Sellers</h2>
+        <div class="product-grid">
+            <div class="product-card">
+                <img src="images/product1.jpg" alt="Product 1">
+                <h3>Luxury Face Cream</h3>
+                <p class="price">$49.99</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <!-- Add more product cards -->
+        </div>
+    </section>
+
+    <!-- Special Offers -->
+    <section class="special-offers">
+        <h2>Special Offers</h2>
+        <div class="offers-grid">
+            <div class="offer-card">
+                <h3>Summer Sale</h3>
+                <p>Up to 50% off</p>
+                <a href="sale.php">Shop Now</a>
+            </div>
+            <div class="offer-card">
+                <h3>New Arrivals</h3>
+                <p>Discover Latest Products</p>
+                <a href="new-arrivals.php">Explore</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Brands Section -->
+    <section class="brands">
+        <h2>Featured Brands</h2>
+        <div class="brand-slider">
+            <img src="images/brand1.png" alt="Brand 1">
+            <img src="images/brand2.png" alt="Brand 2">
+            <img src="images/brand3.png" alt="Brand 3">
+            <!-- Add more brand images -->
+        </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="newsletter">
+        <h2>Stay Updated</h2>
+        <p>Subscribe to our newsletter for exclusive offers and beauty tips</p>
+        <form class="newsletter-form">
+            <input type="email" placeholder="Enter your email">
+            <button type="submit">Subscribe</button>
+        </form>
+    </section>
+
+    <script src="js/main.js"></script>
+
+    <?php include 'footer.php'; ?>
+
+</body>
+</html>
